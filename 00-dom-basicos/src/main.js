@@ -31,6 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // ### Ejercicio 3:
   // Añade un evento de cambio a un `<select>` que está fuera del `contenedorPrincipal`. Cuando se cambie el valor, actualiza el texto del elemento `h1` al nuevo valor seleccionado.
 
+  //No hay select 
+
   // ### Ejercicio 4:
   // Crea una función que cambie el contenido de todos los párrafos dentro del `contenedorSecundario` cuando se presione la tecla "Enter". El nuevo contenido debe ser un texto aleatorio (por ejemplo, "Nuevo contenido").
   document.addEventListener("keydown", (event) => {
@@ -62,8 +64,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
   // ### Ejercicio 7:
-
   // Añade un evento de carga a la página. Cuando la página se cargue, muestra una alerta con el texto "Página cargada".
+
+  // spinner
 
   // ### Ejercicio 8:
   // Crea una función que cambie el tamaño del texto de todos los párrafos dentro del `contenedorPrincipal` cuando se haga clic en el elemento `img`. El nuevo tamaño debe ser el doble del tamaño actual.
@@ -83,7 +86,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // ### Ejercicio 10:
-
   // Crea una función que cambie el color de fondo del `contenedorPrincipal` cuando se haga clic en cualquier elemento dentro de él. El nuevo color debe ser verde.
   const contenedor = document.querySelector("#contenedorPrincipal");
   contenedor.addEventListener("click", () => {
