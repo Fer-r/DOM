@@ -1,4 +1,4 @@
-import { Producto } from "../../../02-poo-dom/src/components/Producto";
+import { Producto } from "./Producto";
 
 export class Carrito {
   // Constructor

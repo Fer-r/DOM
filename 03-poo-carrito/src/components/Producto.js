@@ -15,11 +15,13 @@ export class Producto {
     this.#precio = newPrecio;
   }
 
-  calcularTotal(){
-    return this.#precio*this.cantidad;
+  calcularTotal() {
+    return this.#precio * this.cantidad;
   }
 
-  obtenerInfo(){
-    return `Nombre: ${this.nombre}---Cantidad: ${this.cantidad}---Precio:${this.#precio}---Total: ${this.calcularTotal()}`
+  obtenerInfo() {
+    return `Nombre: ${this.nombre}---Cantidad: ${this.cantidad}---Precio:${
+      this.#precio
+    }---Total: ${this.calcularTotal()}`;
   }
 }
